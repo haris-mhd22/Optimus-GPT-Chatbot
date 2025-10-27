@@ -1,0 +1,22 @@
+[
+    {
+        "input": "hello",
+        "response": "Hello! How can I help you today?"
+    },
+    {
+        "input": "hi",
+        "response": "Hi there! What can I do for you?"
+    },
+    {
+        "input": "how are you",
+        "response": "I'm just a chatbot, but I'm doing great! How about you?"
+    },
+    {
+        "input": "what is your name",
+        "response": "I'm Optimus GPT, your friendly chatbot!"
+    },
+    {
+        "input": "bye",
+        "response": "Goodbye! Have a nice day!"
+    }
+]

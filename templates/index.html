@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optimus GPT</title>
+
+    <!-- Link to the CSS (Flask-compatible path) -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="chat-container">
+        <!-- Header -->
+        <div class="chat-header">
+            <h1>Optimus GPT</h1>
+        </div>
+
+        <!-- Chat box -->
+        <div class="chat-box" id="chat-box">
+            <!-- Messages will appear here dynamically -->
+        </div>
+
+        <!-- Typing indicator -->
+        <div id="typing-indicator" class="typing-indicator" style="display: none;">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+
+        <!-- User input -->
+        <div class="user-input">
+            <input type="text" id="user-input" placeholder="Type your message..." autocomplete="off">
+            <button id="send-button">Send</button>
+        </div>
+    </div>
+
+    <!-- Link to JS (Flask-compatible path) -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
