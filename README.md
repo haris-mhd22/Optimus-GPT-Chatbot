@@ -10,6 +10,7 @@ It responds to messages from a JSON-based database and can be trained dynamicall
 🌙 Responsive dark-themed design
 
 ⚙️ Setup
+
 1️⃣ Clone the repository
 git clone <your-repo-link>
 cd chatbot_project
