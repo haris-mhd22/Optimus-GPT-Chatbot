@@ -9,22 +9,6 @@ It responds to messages from a JSON-based database and can be trained dynamicall
 🧠 Dynamic learning — prompts the user for correct responses when it doesn't know
 🌙 Responsive dark-themed design
 
-🗂️ Project Structure
-chatbot_project/
-│
-├─ main.py                 # Flask backend
-├─ training_data.json      # Chatbot training data (sample)
-├─ requirements.txt        # Python dependencies
-├─ .gitignore
-├─ README.md
-│
-├─ static/
-│  ├─ styles.css           # Chat UI styling
-│  └─ script.js            # Chat UI JavaScript
-│
-└─ templates/
-   └─ index.html           # Main HTML page
-
 ⚙️ Setup
 1️⃣ Clone the repository
 git clone <your-repo-link>
